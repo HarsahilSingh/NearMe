@@ -180,6 +180,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     LatLng latLng = new LatLng(lat,lng);
 
 
+
                     mMap.addMarker(new MarkerOptions().position(latLng).title("Current location").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
                     mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
                     mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,15));
