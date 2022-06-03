@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Nearby</string>
+    <string name="app_name">NearMe</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="google_maps_key">AIzaSyDFXilWA_w7GJqTEuQVEe1n3w9SRIar0lU</string>
 </resources>

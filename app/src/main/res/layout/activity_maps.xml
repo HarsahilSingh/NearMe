@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout"
         android:orientation="horizontal"
+        android:background="#212530"
         android:padding="10dp">
 
         <ImageButton
@@ -19,23 +20,26 @@
             android:layout_height="wrap_content"
             android:id="@+id/hospital"
             android:padding="30dp"
-            android:src="@drawable/ic_baseline_local_hospital_24"/>
+            android:src="@drawable/ic_baseline_local_hospital_24"
+            android:background="#2D9CDB"/>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/atm"
             android:padding="30dp"
-            android:layout_marginLeft="50dp"
-            android:src="@drawable/ic_baseline_atm_24"/>
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/ic_baseline_atm_24"
+            android:background="#2D9CDB"/>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/restaurant"
             android:padding="30dp"
-            android:layout_marginLeft="50dp"
-            android:src="@drawable/ic_baseline_restaurant_24"/>
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/ic_baseline_restaurant_24"
+            android:background="#2D9CDB"/>
 
     </LinearLayout>
 
