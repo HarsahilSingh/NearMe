@@ -1,4 +1,4 @@
-package com.example.nearby;
+package com.example.nearme;
 
 import android.util.Log;
 
@@ -8,8 +8,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-
-import javax.net.ssl.HttpsURLConnection;
 
 //This class is used to retrieve data from the URl using HTTP URL connection and file handling methods
 public class DownloadUrl {

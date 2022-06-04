@@ -1,4 +1,4 @@
-package com.example.nearby;
+package com.example.nearme;
 
 import android.os.AsyncTask;
 
